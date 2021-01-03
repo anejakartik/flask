@@ -78,8 +78,10 @@ This App is Hosted in AWS in case it needs testing just need an update to start 
   For Windows execution of Code commands:
   
   set FLASK_APP=run.py
+ 
   set FLASK_DEBUG=1
-  flask run
+ 
+ flask run
   
   For Linux execution of Code:
   
