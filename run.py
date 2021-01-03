@@ -48,10 +48,3 @@ api.add_resource(resources.TokenRefresh, '/token/refresh')
 api.add_resource(resources.AllUsers, '/users')
 #@limiter.limit("100/day;10/hour;1/minute")
 api.add_resource(resources.SecretResource, '/file')
-
-
-
-if __name__ == "__main__":
-
-    # Run app
-    app.run(host="0.0.0.0", port=80)
